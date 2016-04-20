@@ -3,7 +3,9 @@
     "name": "NoDuplicate",
     "version": "0.1",
     "description": "删除chrome重复书签",
-    "permissions": ["http://*.google.com/"],
+    "permissions": [
+        "bookmarks"
+    ],
     "browser_action": {
         "default_title": "no duplicate",
         "default_icon": "icon.png",
